@@ -1,5 +1,5 @@
 # ベースイメージとして軽量なAlpine Linuxを使用
-FROM alpine:3.14
+FROM public.ecr.aws/docker/library/alpine:3.20
 
 # 必要なパッケージをインストール
 RUN apk add --no-cache python3 curl
